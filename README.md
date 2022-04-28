@@ -46,18 +46,32 @@ respectively.
 
 Firstly, the reader is advised to set up the 
 [Food Collector Environment](https://github.com/Unity-Technologies/ml-agents/blob/main/docs/Learning-Environment-Examples.md#food-collector)
-instead of the legacy Banana Collector, specially if not following the Nanodegree.
+instead of the legacy Banana Collector, specially if not following the Nanodegree. This will allow to install recent 
+versions of the libraries and potentially avoid some unfixed bugs from old versions.
+
+#### Installing required dependencies
 
 Having said that, the exact environment used in this repository for the scope of the Nanodegree can be cloned
-from the following repository:
+from the following repository, in which there are also the instructions to install the required dependencies:
 [udacity/Value-based-methods](https://github.com/udacity/Value-based-methods)
 
-In addition, the compressed file corresponding to the user operating system must be downloaded from one of the links 
-below, and placed in the `p1_navigation/` folder after unzipping it:
+The previous cloning has been *Step 1*. In addition, the compressed file corresponding to the user operating system 
+must be downloaded from one of the links below, and placed inside the `./p1_navigation/` folder after unzipping it, which 
+constitutes *Step 2*:
 - Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux.zip)
 - Mac OSX: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana.app.zip)
 - Windows (32-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86.zip)
 - Windows (64-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86_64.zip)
+
+Once the two previous steps are accomplished, the following step (*Step 3*) is to clone the current repository and place 
+the folder at the root of the freshly configured *Value-based-methods*. From there, it only remains to change the 
+environment path to match the file downloaded in *Step 2*. This path can be changed at 
+[the following line of environment.py](https://github.com/cvillagrasa/DeepReinforcementLearning_Navigation/blob/c3b8224bd47d720f740136269a0f198f5f20c1f9/environment.py#L12).
+
+At this point, *Step 4* consists of installing Seaborn within the Python environment by running `pip install seaborn`.
+
+And that's it. After those four steps, the Jupyter Notebook *Navigation.ipynb* from this repository can already 
+be executed.
 
 ### Solution
 
