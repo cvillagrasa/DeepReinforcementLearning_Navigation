@@ -61,7 +61,9 @@ below, and placed in the `p1_navigation/` folder after unzipping it:
 
 ### Solution
 
-My solution to the posed problem can be found in the [Solution Report](./Report.html), as well as in the code included 
+My solution to the posed problem can be found in the 
+[Solution Report](https://htmlpreview.github.io/?https://github.com/cvillagrasa/DeepReinforcementLearning_Navigation/blob/master/Report.html), 
+as well as in the code included 
 within this repository.
 
 It is worth stating that it has been a fascinating exercise which has let me further understand the dynamics of the 
