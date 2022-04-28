@@ -31,7 +31,7 @@ It consists of a square playground in which there exist
 both yellow and blue bananas. An agent must then pick the yellow ones, while discarding
 the blues.
 
-<img class="center" src="https://video.udacity-data.com/topher/2018/June/5b1ab4b0_banana/banana.gif">
+![alt text](https://video.udacity-data.com/topher/2018/June/5b1ab4b0_banana/banana.gif)
 <br/>
 
 Its characteristics are as follows:
@@ -130,12 +130,3 @@ In order to improve future performance, the following elements could be explored
 - Hyperparameter tweaking (learning rate, epsilon decay, etc.)
 - Other variants of the Deep Q Learning algorithm, such as multi-step bootstrap 
 targets, distributional DQN or noisy DQN.
-
-
-<style>
-    .center {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-    }
-</style>
