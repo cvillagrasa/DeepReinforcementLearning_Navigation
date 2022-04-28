@@ -1,0 +1,35 @@
+* {
+    color: #c5c5c5
+}
+
+body {
+    background-color: #313131;
+    font-family: 'Roboto', sans-serif;
+    text-align:justify
+}
+
+/* unvisited link */
+a:link {
+    color: #5d96ee;
+}
+
+/* visited link */
+a:visited {
+    color: #3155f7;
+}
+
+/* mouse over link */
+a:hover {
+    color: #eba688;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
