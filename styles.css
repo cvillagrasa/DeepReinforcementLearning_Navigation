@@ -33,6 +33,11 @@ a:active {
     color: blue;
 }
 
+.main {
+    width: 800px;
+    margin: 0 auto;
+}
+
 .center {
     display: block;
     margin-left: auto;
